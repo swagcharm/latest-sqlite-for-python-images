@@ -20,6 +20,6 @@ LD_PRELOAD=/usr/lib/libsqlite3.so python
 ```
 
 ## Important Notes
-use env variable DOCKER_DEFAULT_PLATFORM or parameter --platform when doing the build to use according to your target architecture.
+use env variable `DOCKER_DEFAULT_PLATFORM` or parameter `--platform` when doing the build to use according to your target architecture.
 
-The libsqlite3.so provided in the repository is for x86_64 architecture(DOCKER_DEFAULT_PLATFORM := linux/amd64).
+The `libsqlite3.so` provided in the repository is for x86_64 architecture(`DOCKER_DEFAULT_PLATFORM := linux/amd64`).
