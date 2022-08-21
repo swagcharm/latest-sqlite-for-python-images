@@ -1,4 +1,4 @@
-#   export DOCKER_DEFAULT_PLATFORM := linux/amd64
+export DOCKER_DEFAULT_PLATFORM := linux/amd64
 
 build:
 	echo "Building... using $(SSH_KEY)"

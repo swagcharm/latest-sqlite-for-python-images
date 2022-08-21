@@ -25,5 +25,3 @@ RUN \
   && \
   # Smoke test
   sqlite3 --version
-
-
