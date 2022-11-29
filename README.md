@@ -4,6 +4,10 @@ A Dockerfile to create the latest sqlite image from python.
 # Steps:
 - make build
 - make compile
+- update the readme.md file with the new version number and commit.
+- git tag -a "v0.0.0x" -m "Deployment for v0.0.0x (mm/dd/yyyy) Sqlite 3.xx.x"
+- git push origin --tags  
+- add release via www.github.com UI
 
 
 Here is the latest sqlite version now: `3.40.0`
