@@ -6,7 +6,7 @@ A Dockerfile to create the latest sqlite image from python.
 - make compile
 
 
-Here is the latest sqlite version now: `3.39.2`
+Here is the latest sqlite version now: `3.40.0`
 
 You can use the make command to get more information about what you can do.
 
@@ -20,7 +20,7 @@ LD_PRELOAD=/usr/lib/libsqlite3.so python
 ```
 
 ## Important Notes
-use env variable `DOCKER_DEFAULT_PLATFORM` or parameter `--platform` when doing the build to use according to your target architecture.
+Use env variable `DOCKER_DEFAULT_PLATFORM` or parameter `--platform` when doing the build to use according to your target architecture.
 
 The `libsqlite3.so` provided in the repository is for x86_64 architecture(`DOCKER_DEFAULT_PLATFORM := linux/amd64`).
 

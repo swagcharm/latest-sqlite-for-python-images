@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim as base
+FROM python:3.11-slim as base
 
 RUN set -ex \
     && RUN_DEPS=" \
